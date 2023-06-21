@@ -40,7 +40,7 @@ class UtilsTest {
         //Act
         val result = utils.isPallindrome(input)
         //Assert
-        assertEquals(false, result)
+        assertEquals(true, result)
     }
 
     @Test
